@@ -1,0 +1,13 @@
+{
+	"name": "AzureBlobStorage1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "Peut etre etre l'endroit où j'ai mes données",
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"connectionString": "DefaultEndpointsProtocol=https;AccountName=formationstockage;EndpointSuffix=core.windows.net;",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDcxRDk2NTgyLTMyRTEtNEEwRS05RDAwLTU5RTM1M0I4NjgwM19hMTAzYzI4My1iODcwLTRhMDAtODM5OS1hZWI4YzEzYzE5YTAiDQp9"
+		}
+	}
+}

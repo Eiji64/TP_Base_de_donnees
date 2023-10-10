@@ -1,0 +1,67 @@
+{
+	"name": "Metal_bands2023",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": "Metalbands_maj_2023V3 (2)",
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "Metalband_2023.xlsx",
+				"container": "datas"
+			},
+			"firstRowAsHeader": true
+		},
+		"schema": [
+			{
+				"name": "Column1",
+				"type": "String"
+			},
+			{
+				"name": "Band",
+				"type": "String"
+			},
+			{
+				"name": "Styles",
+				"type": "String"
+			},
+			{
+				"name": "Country",
+				"type": "String"
+			},
+			{
+				"name": "Formed",
+				"type": "String"
+			},
+			{
+				"name": "Split",
+				"type": "String"
+			},
+			{
+				"name": "Fans",
+				"type": "String"
+			},
+			{
+				"name": "Statut",
+				"type": "String"
+			},
+			{
+				"name": "Activity_duration",
+				"type": "String"
+			},
+			{
+				"name": "Styles_total",
+				"type": "String"
+			},
+			{
+				"name": "Most_emphatic_style",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

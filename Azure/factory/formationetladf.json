@@ -1,0 +1,9 @@
+{
+	"name": "formationetladf",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "5102d6c2-ae0a-45ae-9e5d-6392a430c013",
+		"tenantId": "51c9846e-0d31-4077-afb1-40590c72d172"
+	}
+}
